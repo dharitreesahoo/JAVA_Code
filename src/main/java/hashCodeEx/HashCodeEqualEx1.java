@@ -90,6 +90,7 @@ public void objectShouldequal()
 {
 	Car car1  = new Car("Swift","VXI","white");
 	Car car2  = new Car("Swift","VXI","white");
+	//if we override hashcode and equals then ony objects ll be equal
 	assertTrue(car1.equals(car2));
 }
 
